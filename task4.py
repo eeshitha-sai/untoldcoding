@@ -1,0 +1,51 @@
+print("Chatbot: Hello! I'm your friendly Python chatbot. Type 'bye' anytime to end the chat.")
+
+while True:
+    user_input = input("You: ").lower()
+
+    if user_input == "hello" or user_input == "hi":
+        print("Chatbot: Hello there! I'm glad you're here. How can I help you today?")
+    elif user_input == "how are you":
+        print("Chatbot: I'm doing well, thank you! I hope you're doing great too.")
+    elif user_input == "i am fine" or user_input == "i am good":
+        print("Chatbot: That’s great! Keep smiling.")
+    elif user_input == "what is your name":
+        print("Chatbot: My name is PyBot, your Python learning companion.")
+    elif user_input == "who created you":
+        print("Chatbot: I was created by a student learning Python, just like you!")
+    elif user_input == "what can you do":
+        print("Chatbot: I can answer basic questions, tell you a joke, or just chat with you.")
+    elif user_input == "tell me a joke":
+        print("Chatbot: Why did the programmer quit his job? Because he didn’t get arrays.")
+    elif user_input == "thank you":
+        print("Chatbot: You're always welcome! Happy to help.")
+    elif user_input == "what is python":
+        print("Chatbot: Python is a beginner-friendly, powerful programming language used for web development, AI, data science, and more.")
+    elif user_input == "what is programming":
+        print("Chatbot: Programming is writing instructions for computers to perform tasks.")
+    elif user_input == "what is ai":
+        print("Chatbot: AI stands for Artificial Intelligence. It allows machines to learn and make decisions.")
+    elif user_input == "what time is it":
+        print("Chatbot: I'm not connected to real time, but you can check the clock on your device!")
+    elif user_input == "what is today's date":
+        print("Chatbot: I'm not linked to a calendar, but you can check your phone or system date.")
+    elif user_input == "what are your hobbies":
+        print("Chatbot: I enjoy chatting with curious minds like you and helping with Python!")
+    elif user_input == "do you sleep":
+        print("Chatbot: Not really! I’m always active, waiting for your messages.")
+    elif user_input == "can you help me learn python":
+        print("Chatbot: Yes! Start with variables, loops, conditionals, and practice daily.")
+    elif user_input == "i made a mistake":
+        print("Chatbot: Mistakes are proof that you're trying. Learn and keep going!")
+    elif user_input == "i am sad":
+        print("Chatbot: I’m here for you. Take a deep breath and remember, tough times don’t last.")
+    elif user_input == "motivate me":
+        print("Chatbot: Believe in yourself. Every expert was once a beginner!")
+    elif user_input == "who am i":
+        print("Chatbot: You’re a learner, a dreamer, and someone who’s on the path to greatness!")
+    elif user_input == "bye" or user_input == "exit":
+        print("Chatbot: Goodbye! It was nice talking to you. Keep learning and stay positive!")
+        break
+    else:
+        print("Chatbot: Hmm, I didn't understand that. Try asking me something else or say 'help'.")
+
